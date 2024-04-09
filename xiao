@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background: #005288;
+            color: #ffffff;
+            padding-top: 30px;
+            padding-bottom: 15px;
+            text-align: center;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .section {
+            background-color: #fff;
+            margin-top: -30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .section h2 {
+            color: #005288;
+        }
+        .button {
+            display: inline-block;
+            background: #005288;
+            color: #ffffff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #003f5c;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            color: #ffffff;
+            background: #005288;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>欢迎来到我的个人网站</h1>
+    </header>
+
+    <div class="section about">
+        <h2>关于我</h2>
+        <p>这里是你的个人介绍。可以提到你的职业背景、你的兴趣爱好或者你想要分享的其他信息。</p>
+    </div>
+
+    <div class="section works">
+        <h2>个人作品</h2>
+        <!-- 在这里嵌入你的作品或项目，例如视频、图片、代码片段等 -->
+        <p>描述一下你的作品，如果可能的话，加入链接或者嵌入内容。</p>
+    </div>
+
+    <div class="section blog">
+        <h2>最新博客</h2>
+        <!-- 在这里展示你的文章标题或链接 -->
+        <p>展示一些最新的或者是最具代表性的文章标题。如果你有在线博客，也可以加入链接。</p>
+    </div>
+
+    <div class="section contact">
+        <h2>联系方式</h2>
+        <p>请在这里放置你的电子邮箱地址、社交媒体账号或者其他联系方式。</p>
+        <a href="#" class="button">联系我</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 你的名字. All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
